@@ -1,7 +1,28 @@
 aid: aikito
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/aikito.png
 name: Aikito
-description: Aikito is a company surfaced as a portfolio company of bloomberg-beta and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Aikito is a New York-based company (founded 2021) operating a commercial
+  real-estate platform that helps business owners design, build, finance, and
+  manage their commercial spaces. It pairs a suite of AI-driven tools with
+  non-dilutive financing so tenants can build out a space and pay over time,
+  covering the project lifecycle from lease execution through move-in. Aikito
+  was founded by Amol Sarva and its investors include Bloomberg Beta, Gaingels,
+  Calm Ventures, FJ Labs, and Northzone. As of this profile Aikito publishes no
+  public API, developer portal, SDKs, or technical documentation surface, so it
+  remains a company/identity record in the API Evangelist network rather than an
+  API provider.
 url: https://raw.githubusercontent.com/api-evangelist/aikito/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +30,18 @@ x-backed-by:
 - bloomberg-beta
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-no-api-surface: true
 specificationVersion: '0.20'
 created: '2026-07-17'
 modified: '2026-07-17'
 tags:
 - Company
+- Real Estate
+- Commercial Real Estate
+- Construction
+- Financing
+- Artificial Intelligence
+- Property Technology
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +51,10 @@ maintainers:
 common:
 - type: Website
   url: https://www.aikito.co/
+- type: LinkedIn
+  url: https://www.linkedin.com/company/aikito
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
